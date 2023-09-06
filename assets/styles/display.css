@@ -1,0 +1,86 @@
+/* 
+
+Display
+
+Sirve para controlar como se muestra un elemento dentro de nuestro documento.
+Esta propiedad es distinta de "position" porque display se encarga de definir como se muestran u ocultan elementos (No se elimina el código)
+
+    -none
+    -inline
+    -block
+    -inline-block
+
+
+
+*/
+
+/* Estilos Generales */
+
+body{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/* Estilos para articulos */
+
+#articleOne{
+    margin: 20px;
+    padding: 20px;
+    background-color: gainsboro;
+    border: 1px solid black;
+    border-radius: 50px;
+}
+
+#articleTwo{
+    margin: 20px;
+    padding: 20px;
+    background-color: gainsboro;
+    border: 1px solid black;
+    border-radius: 50px;
+    /* display: none; */
+}
+
+#articleThree{
+    margin: 20px;
+    padding: 20px;
+    background-color: gainsboro;
+    border: 1px solid black;
+    border-radius: 50px;
+}
+
+/* ul{
+    list-style-position: inside;
+} */
+
+
+
+/* 
+
+NONE
+
+Hace que el elemento se oculte completamente, y que no ocupe espacio en la pagina (no se elimina), y este valor se utiliza comunmente para ocultar elementos debido a la interaccion con la ventana del navegador (un menu que se oculte cuando la ventana se haga pequeña)
+
+
+
+INLINE
+Es el valor por defecto hace que el elemento se muestre en linea con el texto que lo rodea
+
+
+*/
+
+#navbarContainer ul li{
+    display: inline;
+    margin: 30px;
+    list-style-position: inside;
+}
+
+
+
+
+/* 
+
+BLOCK
+
+
+
+*/
